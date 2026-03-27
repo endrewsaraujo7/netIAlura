@@ -16,14 +16,14 @@ export const categories = [
             },
             {
                 img: "https://m.media-amazon.com/images/S/pv-target-images/883679a2e61b1de6badf3546aceed830513aef1118a0c6f47a86d7c0b04e4e23.jpg", progress: 0,
-                youtube: "https://www.youtube.com/watch?v=a06zxOyQrAs"
+                youtube: "https://youtu.be/4XA73ni9eVs?si=-k0JDnmuvyELERIN"
             }
         ]
     },
     {
         title: "Séries",
         items: [
-            { img: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Nova temporada", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
+            { img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLh8MJIZOezqEXLkWRwQbiG1xUL3ybS0FiUE9hGy5RNbwf8RrEP2ni4ZKf8EHiMX625-OpcDkJvnL66OPCmKgLvwgU1ykilKO49iE4QQkCmS333YuYl36ShO4_B_H3M8CIM9qxtaLOgbg/s1600/Peaky-Blinders.jpg", top10: true, badge: "Nova temporada", badgeColor: "red", youtube: "https://youtu.be/Uv8bfaxl9j4?si=IsSiW9nuzNuZqDgY" },
             { img: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=600&auto=format&fit=crop", top10: true, youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
             { img: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=600&auto=format&fit=crop", badge: "Novo episódio", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
             { img: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=600&auto=format&fit=crop", badge: "Novidade", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
