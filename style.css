@@ -193,9 +193,8 @@ body.light-mode {
 
 @media (max-width: 600px) {
     main {
-        /* aumenta a margem superior para dar mais espaço em telas pequenas */
         margin-top: 6rem;
-
+        /* Aumenta a margem superior para dar mais espaço em telas pequenas */
         min-height: auto;
         /* Remove altura mínima */
         padding: 2rem 0;

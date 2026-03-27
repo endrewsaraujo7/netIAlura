@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/assets/netflix-logo.png" type="image/png">
+    <link rel="icon" href="./assets/netflix-logo.png" type="image/png">
 </head>
 <body>
     <button id="theme-toggle" aria-label="Alternar tema">🌙</button>
@@ -15,34 +15,34 @@
             <nav class="profiles">
                 <ul>
                     <li>
-                        <a href="catalogo/catalogo.html" class="profile">
+                        <a href="./catalogo/catalogo.html" class="profile">
                             <figure>
-                                <img src="/assets/perfil-1.png" alt="Imagem do Usuario Master (DONO DA CONTA)">
+                                <img src="./assets/perfil-1.png" alt="Imagem do Usuario Master (DONO DA CONTA)">
                                 <figcaption>Endrews</figcaption>
                                 <p>(MASTER)</p>
                             </figure>
                         </a>
                     </li>
                     <li>
-                        <a href="catalogo/catalogo.html" class="profile">
+                        <a href="./catalogo/catalogo.html" class="profile">
                             <figure>
-                                <img src="/assets/perfil-2.png" alt="Imagem do Primeiro usuario mais ativo na plataforma">
+                                <img src="./assets/perfil-2.png" alt="Imagem do Primeiro usuario mais ativo na plataforma">
                                 <figcaption>Gustavo</figcaption>
                             </figure>
                         </a>
                     </li>
                     <li>
-                        <a href="catalogo/catalogo.html" class="profile">
+                        <a href="./catalogo/catalogo.html" class="profile">
                             <figure>
-                                <img src="/assets/perfil-3.png" alt="Imagem do Usuario apos o primeiro mais ativo na plataforma">
+                                <img src="./assets/perfil-3.png" alt="Imagem do Usuario apos o primeiro mais ativo na plataforma">
                                 <figcaption>Lucas</figcaption>
                             </figure>
                         </a>
                     </li>
                     <li>
-                        <a href="catalogo/catalogo.html" class="profile">
+                        <a href="./catalogo/catalogo.html" class="profile">
                             <figure>
-                                <img src="/assets/perfil-4.png" alt="Imagem do Terceiro usuario mais ativo na plataforma">
+                                <img src="./assets/perfil-4.png" alt="Imagem do Terceiro usuario mais ativo na plataforma">
                                 <figcaption>Thiago</figcaption>
                             </figure>
                         </a>
@@ -52,13 +52,12 @@
         </section>
     </main>
     <script src="theme.js"></script>
-    <script src="/catalogo/js/index.js"></script>
+    <script src="./catalogo/js/index.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const profiles = document.querySelectorAll('.profile');
             profiles.forEach(profile => {
                 profile.addEventListener('click', (e) => {
-                    e.preventDefault();
                     const img = profile.querySelector('img');
                     const figcaption = profile.querySelector('figcaption');
                     if (img && figcaption) {
@@ -67,7 +66,6 @@
                         localStorage.setItem('perfilAtivoNome', nome);
                         localStorage.setItem('perfilAtivoImagem', imagem);
                     }
-                    window.location.href = profile.href;
                 });
             });
         });

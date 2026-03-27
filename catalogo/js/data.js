@@ -17,7 +17,7 @@ export const categories = [
             {
                 img: "https://m.media-amazon.com/images/S/pv-target-images/883679a2e61b1de6badf3546aceed830513aef1118a0c6f47a86d7c0b04e4e23.jpg", progress: 0,
                 youtube: "https://www.youtube.com/watch?v=a06zxOyQrAs"
-            },
+            }
         ]
     },
     {
